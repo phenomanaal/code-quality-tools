@@ -145,8 +145,16 @@ class Cart:
         return really_long_and_unnecessary_variable_i_created_to_demonstrate_style_errors_for_linters
 
     def get_user_by_id(self):
+        """Given a user id return the user information.
+
+        Arguments: None
+
+        Returns:
+        tuple of query results
+
+        """
         query = f"SELECT * FROM users WHERE id = {self.user_id}"
-        self.cursor.execute(query)
+        return self.cursor.execute(query)
 
     def process_data(self, data: dict[str, str]):
         if data is None:
