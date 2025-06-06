@@ -10,7 +10,7 @@ import logging
 import os
 
 
-from test import Cursor
+from test_linters import Cursor
 
 DISCOUNT_LIMIT_1 = 100
 DISCOUNT_LIMIT_2 = 250
