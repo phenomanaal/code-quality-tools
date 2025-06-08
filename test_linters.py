@@ -1,8 +1,6 @@
 """set of code to test out linters and formatters in python.
 
 use this code to run comparisons between pylint, ruff, and flake8
-
-testing
 """
 
 from __future__ import annotations
