@@ -2,7 +2,7 @@
 
 use this code to run comparisons between pylint, ruff, and flake8
 
-test
+testing
 """
 
 from __future__ import annotations
